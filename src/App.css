@@ -1,0 +1,11 @@
+/*font-family: 'Alata', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tomorrow', sans-serif;*/
+body {
+	margin: 0;
+font-family: 'Tomorrow', sans-serif;
+/*background: linear-gradient(90deg, #fff 1%,transparent 3%,transparent 80%,#fff 82%),
+linear-gradient(0deg , #fff 1%,transparent 3%,transparent 80%,#fff 82%);
+background-color: #25f;
+background-size: 50px 50px;*/
+}

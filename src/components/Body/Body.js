@@ -3,13 +3,13 @@ import About from './components/About/About.js';
 import SignIn from './components/SignIn/SignIn.js';
 import SignUp from './components/SignUp/SignUp.js';
 import Home from './components/Home/Home.js';
-
+import './Body.css'
 class Body extends React.Component {
 	constructor(){
 		super();
 		this.state = {
 		input : null,
-		component : null,
+		component : "Home",
 		}
 	}
 	handleInput =(event)=>{
@@ -33,14 +33,18 @@ class Body extends React.Component {
 
 	render(){
 		return(
-			<div>
-			<a href="#" value="Home" onClick={this.handleAnchorClick}>Home</a>
-			<a href="#" value="SignIn" onClick={this.handleAnchorClick}>Sign In</a>
-			<a href="#" value="SignUp" onClick={this.handleAnchorClick}>Sign Up</a>
-			<a href="#" value="About" onClick={this.handleAnchorClick}>About</a>
+	<div>
+		<nav>
+			<ul className="nav_custom li">
+					<li><a href="#" value="Home" onClick={this.handleAnchorClick}>Home</a></li>
+					<li><a href="#" value="SignIn" onClick={this.handleAnchorClick}>Sign In</a></li>
+					<li><a href="#" value="SignUp" onClick={this.handleAnchorClick}>Sign Up</a></li>
+					<li><a href="#" value="About" onClick={this.handleAnchorClick}>About</a></li>
+			</ul>
+		</nav>
 			<BodyComponents selector={this.state.component}/>
 
-			</div>
+	</div>
 			)
 	}
 }

@@ -9,8 +9,8 @@ class Home extends React.Component {
 
 	render(){
 		return(
-			<div>Home for Rauf
-			<p>this is the paragraph</p>
+			<div>	
+			home sweet shome
 			</div>
 			)
 	}
