@@ -36,10 +36,10 @@ class Body extends React.Component {
 	<div>
 		<nav>
 			<ul className="nav_custom li">
-					<li><a href="#" value="Home" onClick={this.handleAnchorClick}>Home</a></li>
-					<li><a href="#" value="SignIn" onClick={this.handleAnchorClick}>Sign In</a></li>
-					<li><a href="#" value="SignUp" onClick={this.handleAnchorClick}>Sign Up</a></li>
-					<li><a href="#" value="About" onClick={this.handleAnchorClick}>About</a></li>
+					<li><a className="a" href="#" value="Home" onClick={this.handleAnchorClick}>Home</a></li>
+					<li><a className="a" href="#" value="SignIn" onClick={this.handleAnchorClick}>Sign In</a></li>
+					<li><a className="a" href="#" value="SignUp" onClick={this.handleAnchorClick}>Sign Up</a></li>
+					<li><a className="a" href="#" value="About" onClick={this.handleAnchorClick}>About</a></li>
 			</ul>
 		</nav>
 			<BodyComponents selector={this.state.component}/>

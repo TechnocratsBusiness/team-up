@@ -12,7 +12,7 @@ font-family: 'Tomorrow', sans-serif;
 	padding-bottom: 20px;
 	margin: 0;
 }
-a {
+.a {
 text-decoration: none;
 padding: 10px 20px;
 background-color: rgba(62, 167, 250, 1.0);
